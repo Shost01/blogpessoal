@@ -13,7 +13,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 @Entity							//Indicar que a classe é uma tabela
-@Table(name = "tb-postagens")	// indica o nome da tabela no bd
+@Table(name = "tb_postagens")	// indica o nome da tabela no bd
 public class Postagem {
 
 	@Id // Ele é a chave primária (PRIMARY KEY)
